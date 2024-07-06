@@ -5016,7 +5016,7 @@ header.header.header-sticky.is-sticky.header-03
   }
   .header .navbar .navbar-brand {
     flex: 0 0 140px;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .header .navbar .navbar-nav {
     gap: 10px;
@@ -5456,8 +5456,8 @@ header.header.header-sticky.is-sticky.header-03
     height: 850px;
   }
   .banner-02 .banner-content .banner-title {
-    font-size: 100px;
-    line-height: 106px;
+    font-size: 70px;
+    line-height: 85px;
   }
   .banner-02 .banner-bg {
     margin-right: -24%;
@@ -5493,8 +5493,8 @@ header.header.header-sticky.is-sticky.header-03
     line-height: 38px;
   }
   .banner-02 .banner-content .banner-title {
-    font-size: 70px;
-    line-height: 76px;
+    font-size: 45px;
+    line-height: 50px;
   }
   .banner-02 .banner-bg {
     margin-right: 0;
