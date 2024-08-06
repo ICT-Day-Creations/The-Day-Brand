@@ -63,6 +63,8 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   Typography
 *****************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 @font-face {
   font-family: "Hagin";
   src: url("../fonts/HaginCapsMedium-Medium.otf");
@@ -75,6 +77,14 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   src: url("../fonts/HaginCapsThin-Thin.otf");
   font-weight: lighter;
   font-style: normal;
+}
+
+*{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
 }
 
 body {
@@ -5318,6 +5328,7 @@ header.header.header-sticky.is-sticky.header-03
 .banner-02 .banner-content .banner-sub-title {
   color: #0c0c0c;
   text-transform: capitalize;
+  font-family: "Manrope", sans-serif;
 }
 .banner-02 .banner-content .banner-title {
   font-size: 115px;
@@ -5416,10 +5427,12 @@ header.header.header-sticky.is-sticky.header-03
   /*Banner 02*/
   .banner-02 {
     height: 950px;
+    font-family: "Manrope", sans-serif;
   }
   .banner-02 .banner-bg {
     margin-left: 50px;
     margin-right: -22%;
+    font-family: "Manrope", sans-serif;
   }
 }
 
@@ -5427,6 +5440,7 @@ header.header.header-sticky.is-sticky.header-03
   /*Banner 02*/
   .banner-02 .banner-bg {
     margin-right: -15%;
+    font-family: "Manrope", sans-serif;
   }
 }
 
@@ -5434,11 +5448,13 @@ header.header.header-sticky.is-sticky.header-03
   /*Banner 02*/
   .banner-02 .banner-bg {
     margin-right: -16%;
+    font-family: "Manrope", sans-serif;
   }
   /*Banner 03*/
   .banner-03 .banner-title {
     font-size: 80px;
     line-height: 90px;
+    font-family: "Manrope", sans-serif;
   }
 }
 
@@ -5446,10 +5462,12 @@ header.header.header-sticky.is-sticky.header-03
   /*Banner 01*/
   .banner.banner-01 {
     padding: 200px 60px 180px;
+    font-family: "Manrope", sans-serif;
   }
   .banner.banner-01 .banner-content h1 {
     font-size: 90px;
     line-height: 100px;
+    font-family: "Manrope", sans-serif;
   }
   /*Banner 02*/
   .banner-02 {
@@ -5458,6 +5476,7 @@ header.header.header-sticky.is-sticky.header-03
   .banner-02 .banner-content .banner-title {
     font-size: 70px;
     line-height: 85px;
+    font-family: "Manrope", sans-serif;
   }
   .banner-02 .banner-bg {
     margin-right: -24%;
@@ -5469,6 +5488,7 @@ header.header.header-sticky.is-sticky.header-03
   .banner-03 .banner-title {
     font-size: 70px;
     line-height: 80px;
+    font-family: "Manrope", sans-serif;
   }
 }
 
@@ -5491,10 +5511,12 @@ header.header.header-sticky.is-sticky.header-03
   .banner-02 .banner-content .banner-sub-title {
     font-size: 30px;
     line-height: 38px;
+    font-family: "Manrope", sans-serif;
   }
   .banner-02 .banner-content .banner-title {
     font-size: 45px;
     line-height: 50px;
+    font-family: "Manrope", sans-serif;
   }
   .banner-02 .banner-bg {
     margin-right: 0;
@@ -5503,6 +5525,7 @@ header.header.header-sticky.is-sticky.header-03
   .banner-03 .banner-title {
     font-size: 60px;
     line-height: 70px;
+    font-family: "Manrope", sans-serif;
   }
 }
 
