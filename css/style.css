@@ -63,8 +63,14 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   Typography
 *****************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
 
+@font-face {
+  font-family: "SaolDisplay";
+  src: url("../fonts/SaolDisplay-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "Hagin";
   src: url("../fonts/HaginCapsMedium-Medium.otf");
@@ -79,16 +85,15 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   font-style: normal;
 }
 
-*{
-  font-family: "Manrope", sans-serif;
+* {
+  font-family: "SaolDisplay", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 18px;
@@ -138,7 +143,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #162634;
   margin: 0px 0px 1rem;
   font-weight: 600;
@@ -276,7 +281,7 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #ffffff;
 }
 .breadcrumb .breadcrumb-item a {
@@ -681,7 +686,7 @@ h6 {
 }
 .mouse-cursor.cursor-in.cursor-active span {
   font-size: 26px;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: 600;
   color: #000000;
   opacity: 1;
@@ -1600,7 +1605,7 @@ h6 {
   font-size: 14px;
   font-weight: bold;
   color: #162634;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
 }
 .team-item .share .team-social ul li a:hover {
   color: #0c0c0c;
@@ -1623,7 +1628,7 @@ h6 {
   gap: 17px;
 }
 .team-item .team-social ul li a {
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-size: 20px;
   color: #ffffff;
   font-weight: normal;
@@ -1647,7 +1652,7 @@ h6 {
   font-size: 26px;
   line-height: 32px;
   font-weight: 600;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #ffffff;
   display: block;
   margin-bottom: 5px;
@@ -1865,7 +1870,7 @@ h6 {
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #162634;
   margin-bottom: 5px;
 }
@@ -2132,7 +2137,7 @@ h6 {
   font-size: 62px;
   line-height: 62px;
   color: #162634;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -2143,14 +2148,14 @@ h6 {
 .counter .counter-info .counter-title {
   font-size: 24px;
   font-weight: bold;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #162634;
 }
 
 .counter .counter-info .counter-description {
   font-size: 20px;
   font-weight: normal;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #97a0a4;
   margin-bottom: 0px;
 }
@@ -2174,7 +2179,7 @@ h6 {
   font-size: 20px;
   line-height: 30px;
   font-weight: normal;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #97a0a4;
 }
 
@@ -2194,7 +2199,7 @@ h6 {
   font-size: 42px;
   line-height: 48px;
   font-weight: 500;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #162634;
   display: block;
   margin-bottom: 15px;
@@ -2485,7 +2490,7 @@ h6 {
   line-height: 40px;
   font-weight: normal;
   color: #162634;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   margin-bottom: 15px;
 }
 .pricing-box .pricing-footer .package-price .price {
@@ -2493,11 +2498,11 @@ h6 {
   line-height: 40px;
   font-weight: bold;
   color: #162634;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
 }
 .pricing-box .pricing-footer .btn {
   width: calc(100% - 8px);
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 7px;
@@ -2561,7 +2566,7 @@ h6 {
 }
 
 .coming-soon-title {
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-size: 160px;
   line-height: 180px;
   font-weight: bold;
@@ -2589,7 +2594,7 @@ h6 {
   text-align: center;
 }
 .countdown-main .countdown span {
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-size: 130px;
   line-height: 136px;
   font-weight: bold;
@@ -2598,7 +2603,7 @@ h6 {
   margin-bottom: 15px;
 }
 .countdown-main .countdown p {
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
@@ -2740,7 +2745,7 @@ h6 {
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   color: #ffffff;
   padding: 10px 15px;
   margin-right: 8px;
@@ -3477,7 +3482,7 @@ form textarea.form-control {
   line-height: normal;
   font-weight: 600;
   color: #0c0c0c;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
 }
 .timeline-item .timeline-info-content {
   position: relative;
@@ -3694,7 +3699,7 @@ form textarea.form-control {
 }
 .social-icon ul li a {
   font-size: 20px;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: normal;
   color: #ffffff;
   transition: all 0.3s ease-in-out;
@@ -3710,7 +3715,7 @@ form textarea.form-control {
 }
 .social-icon ul li.title {
   font-size: 20px;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: normal;
   color: #ffffff;
   position: relative;
@@ -3787,7 +3792,7 @@ form textarea.form-control {
   color: #000000;
   font-size: 18px;
   line-height: normal;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -4048,7 +4053,7 @@ form textarea.form-control {
   position: relative;
   transition: all 0.3s ease-in-out;
   left: 0;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-size: 18px;
   font-weight: 600;
   padding: 12px 8px;
@@ -4413,7 +4418,7 @@ header.header.header-sticky.is-sticky.header-03
   border-radius: 0px;
   position: relative;
   color: #162634;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
 }
 .navbar .dropdown > .dropdown-menu li > a:hover {
   color: #0c0c0c;
@@ -4592,7 +4597,7 @@ header.header.header-sticky.is-sticky.header-03
   font-size: 20px;
   line-height: 30px;
   color: #97a0a4;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: normal;
 }
 .offcanvas .offcanvas-body .contact-info-box a:hover {
@@ -4681,7 +4686,7 @@ header.header.header-sticky.is-sticky.header-03
 .offcanvas.menu-overlay-offcanvas .navbar .navbar-nav .nav-item > a {
   display: inline-flex;
   padding: 0;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-size: 70px;
   font-weight: 700;
   line-height: 1.2;
@@ -4711,7 +4716,7 @@ header.header.header-sticky.is-sticky.header-03
   border: none;
   font-size: 28px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
 }
 .offcanvas.menu-overlay-offcanvas
   .navbar
@@ -5328,7 +5333,7 @@ header.header.header-sticky.is-sticky.header-03
 .banner-02 .banner-content .banner-sub-title {
   color: #0c0c0c;
   text-transform: capitalize;
-  font-family: "Manrope", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
 }
 .banner-02 .banner-content .banner-title {
   font-size: 115px;
@@ -5385,7 +5390,7 @@ header.header.header-sticky.is-sticky.header-03
 }
 .banner-03 .banner-description {
   color: #97a0a4;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   text-align: center;
   padding: 0px 120px;
 }
@@ -5427,12 +5432,12 @@ header.header.header-sticky.is-sticky.header-03
   /*Banner 02*/
   .banner-02 {
     height: 950px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
   .banner-02 .banner-bg {
     margin-left: 50px;
     margin-right: -22%;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
 }
 
@@ -5440,7 +5445,7 @@ header.header.header-sticky.is-sticky.header-03
   /*Banner 02*/
   .banner-02 .banner-bg {
     margin-right: -15%;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
 }
 
@@ -5448,13 +5453,13 @@ header.header.header-sticky.is-sticky.header-03
   /*Banner 02*/
   .banner-02 .banner-bg {
     margin-right: -16%;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
   /*Banner 03*/
   .banner-03 .banner-title {
     font-size: 80px;
     line-height: 90px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
 }
 
@@ -5462,12 +5467,12 @@ header.header.header-sticky.is-sticky.header-03
   /*Banner 01*/
   .banner.banner-01 {
     padding: 200px 60px 180px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
   .banner.banner-01 .banner-content h1 {
     font-size: 90px;
     line-height: 100px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
   /*Banner 02*/
   .banner-02 {
@@ -5476,7 +5481,7 @@ header.header.header-sticky.is-sticky.header-03
   .banner-02 .banner-content .banner-title {
     font-size: 70px;
     line-height: 85px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
   .banner-02 .banner-bg {
     margin-right: -24%;
@@ -5488,7 +5493,7 @@ header.header.header-sticky.is-sticky.header-03
   .banner-03 .banner-title {
     font-size: 70px;
     line-height: 80px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
 }
 
@@ -5511,12 +5516,12 @@ header.header.header-sticky.is-sticky.header-03
   .banner-02 .banner-content .banner-sub-title {
     font-size: 30px;
     line-height: 38px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
   .banner-02 .banner-content .banner-title {
     font-size: 45px;
     line-height: 50px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
   .banner-02 .banner-bg {
     margin-right: 0;
@@ -5525,7 +5530,7 @@ header.header.header-sticky.is-sticky.header-03
   .banner-03 .banner-title {
     font-size: 60px;
     line-height: 70px;
-    font-family: "Manrope", sans-serif;
+    font-family: "SaolDisplay", sans-serif;
   }
 }
 
@@ -5928,7 +5933,7 @@ header.header.header-sticky.is-sticky.header-03
   margin: 0 auto;
   font-size: 24px;
   line-height: normal;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: bold;
   color: #ffffff;
 }
@@ -6212,7 +6217,7 @@ header.header.header-sticky.is-sticky.header-03
 .error-content .error-title span {
   font-size: 250px;
   line-height: 180px;
-  font-family: "Sora", sans-serif;
+  font-family: "SaolDisplay", sans-serif;
   font-weight: bold;
   color: #0c0c0c;
 }
