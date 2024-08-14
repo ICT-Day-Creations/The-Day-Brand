@@ -6409,6 +6409,7 @@ header.header.header-sticky.is-sticky.header-03
   }
   .section-title p {
     font-size: 18px;
+    font-weight: bolder;
     line-height: 28px;
   }
 
@@ -6504,6 +6505,7 @@ header.header.header-sticky.is-sticky.header-03
   .section-title p {
     font-size: 16px;
     line-height: 26px;
+    font-weight: 900;
   }
   .video-section {
     padding: 70px 0px;
